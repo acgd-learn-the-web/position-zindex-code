@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+  width: 100%;
+}
